@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 300px;
+    margin: auto;
+    margin-top: 20vh;
+    border: 0;
+    box-shadow: 1px 2px 5px 5px #888888;
+    padding: 20px;
+}
+.card h2{
+    font-size: 30px;
+    text-align: center;
+}
+.card .user_input{
+    text-align: center;
+    margin-top: 10px;
+}
+.card .user_input input{
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+.card .oparetor {
+    text-align: center;
+}
+.card .oparetor .first_oparator{
+    padding: 10px;
+}
+.card .oparetor .first_oparator button,
+.card .oparetor .second_oparetor button{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 4px 20px;
+}
+.card h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.card h3 span{
+    color: rgb(0, 92, 5);
+}
