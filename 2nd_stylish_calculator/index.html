@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display">
+        <div class="button">
+            <button onclick="clearDisplay()">🧹</button>
+            <button onclick="appeendValue('7')">7️⃣</button>
+            <button onclick="appeendValue('8')">8️⃣</button>
+            <button onclick="appeendValue('9')">9️⃣</button>
+            <button onclick="appeendValue('4')">4️⃣</button>
+            <button onclick="appeendValue('5')">5️⃣</button>
+            <button onclick="appeendValue('6')">6️⃣</button>
+            <button onclick="appeendValue('+')">➕</button>
+            <button onclick="appeendValue('1')">1️⃣</button>
+            <button onclick="appeendValue('2')">2️⃣</button>
+            <button onclick="appeendValue('3')">3️⃣</button>
+            <button onclick="appeendValue('-')">➖</button>
+            <button onclick="appeendValue('0')">0️⃣</button>
+            <button onclick="appeendValue('*')">✖️</button>
+            <button onclick="appeendValue('/')">➗</button>
+            <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>    
+</body>
+</html>
