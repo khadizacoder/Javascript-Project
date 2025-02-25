@@ -118,7 +118,7 @@ div.mb-6.mt-6.pb-5>div>div.row>div>div.fba>div.card-body.text-white {
 }
 
 i.icon-fba {
-    background: url('images/2st.png') no-repeat;
+    background: url('images/2nd.png') no-repeat;
     background-size: auto;
     background-size: cover;
 }
@@ -128,7 +128,7 @@ div.mb-6.mt-6.pb-5>div>div.row>div>div.fe>div.card-body {
 }
 
 i.icon-fe {
-    background: url('image/ico3.png') no-repeat;
+    background: url('images/3rd.png') no-repeat;
     background-size: auto;
     background-size: cover;
 }
@@ -138,7 +138,7 @@ div.mb-6.mt-6.pb-5>div>div.row>div>div.fst>div.card-body.text-white {
 }
 
 i.icon-fst {
-    background: url('image/icon4.png') no-repeat;
+    background: url('images/4th1.png') no-repeat;
     background-size: auto;
     background-size: cover;
     transform: rotate(-90deg);
