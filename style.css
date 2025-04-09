@@ -14,7 +14,7 @@
 
 /* FACULTIES AREA  */
 
-.faculty .col-md-3>div {
+.faculty .col-md-3 div {
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -22,28 +22,28 @@
     box-shadow: 0px 0px 5px 1px rgba(148, 148, 148, 0.3);
 }
 
-div.mb-6.mt-6.pb-5>div>div.row>div>div.fass>div.card-body {
+.card_title1 {
     background-color: #c5281c;
 }
 
-div.faculty div.card-body {
+.faculty div.card-body {
     padding: 0.3rem;
     height: 3rem;
 }
 
-.faculty .card-body>h5.card-title {
+.faculty .card-body .card-title {
     font-size: 0.9rem;
     font-weight: bold;
     margin-bottom: 0;
 }
 
-div.faculty div.card-body>h5 {
+.faculty div.card-body h5 {
     padding: 5px;
     margin: 0px;
     margin-bottom: 0px;
 }
 
-div.faculty div.card-body>h5>a {
+.faculty div.card-body h5 a {
     text-decoration: none;
     transition: all .4s ease-in-out;
 }
@@ -52,10 +52,6 @@ div.faculty div.card-body>h5>a {
     position: relative;
     line-height: 0;
     overflow: hidden;
-}
-
-.flat_box .photo_wrapper .icon {
-    -webkit-transition: all .4s ease-in-out;
 }
 
 .flat_box .photo_wrapper:hover .themebg {
@@ -88,7 +84,7 @@ div.themebg {
     margin-top: -50px;
 }
 
-i.icon-fass {
+.icon-fass {
     background: url('images/1st.png') no-repeat;
     background-size: auto;
     background-size: cover;
@@ -113,37 +109,32 @@ i.icon-fass {
     box-shadow: 0px 0px 7px 3px #dc3545;
 }
 
-div.mb-6.mt-6.pb-5>div>div.row>div>div.fba>div.card-body.text-white {
+.card_title2 {
     background-color: #008c44;
 }
 
-i.icon-fba {
+.icon-fba {
     background: url('images/2nd.png') no-repeat;
     background-size: auto;
     background-size: cover;
 }
 
-div.mb-6.mt-6.pb-5>div>div.row>div>div.fe>div.card-body {
+.card_title3 {
     background-color: #f7941e;
 }
 
-i.icon-fe {
+.icon-fe {
     background: url('images/3rd.png') no-repeat;
     background-size: auto;
     background-size: cover;
 }
 
-div.mb-6.mt-6.pb-5>div>div.row>div>div.fst>div.card-body.text-white {
+.card_title4 {
     background-color: #0072bc;
 }
 
-i.icon-fst {
-    background: url('images/4th1.png') no-repeat;
+.icon-fst {
+    background: url('images/4th.png') no-repeat;
     background-size: auto;
     background-size: cover;
-    transform: rotate(-90deg);
-    width: 180px !important;
-    height: 114px !important;
-    margin-top: -56px !important;
-    margin-left: -73px;
 }
